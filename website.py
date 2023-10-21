@@ -8,7 +8,7 @@ adr = st.text_input("Enter your address :")
 classdata = st.selectbox("Enter your class :", (1,2,3,4,5,6,7,8,9,10,11,12))
 tc= st.text_input("Are you of more than 18+ and accepts the Terms and Conditions:")
 
-button =st.button("Sumbit & done")
+st.form_submit_button(label = "Submit this form")
 if button :
     st.markdown(f"""
                 Name : {name}
